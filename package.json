@@ -1,0 +1,22 @@
+{
+  "name": "cypress-kbank-shopee",
+  "version": "1.0.0",
+  "description": "E2E testing with cypress ",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@cypress/webpack-preprocessor": "^5.6.0",
+    "babel-loader": "^8.2.2",
+    "cypress": "^6.8.0",
+    "cypress-image-snapshot": "^4.0.1",
+    "path": "^0.12.7",
+    "prettier": "^2.2.1",
+    "webpack": "^5.28.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  }
+}

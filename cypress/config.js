@@ -1,0 +1,1 @@
+export const url = "https://www.kasikornbank.com/th/personal/CreditCard/Pages/kbank-shopee.aspx"
