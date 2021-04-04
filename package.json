@@ -13,6 +13,7 @@
     "cypress-image-snapshot": "^4.0.1",
     "path": "^0.12.7",
     "prettier": "^2.2.1",
+    "tsconfig-paths": "^3.9.0",
     "webpack": "^5.28.0"
   },
   "scripts": {
