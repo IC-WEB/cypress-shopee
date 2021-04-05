@@ -14,7 +14,14 @@ export default class Carousel {
     cy.get(selector).click('topRight', { force: true });
   }
 
-  static showItem() {
-    cy.get(selector).should('be.visible').should('have.class', 'slick-active');
+  static showItem(selector) {
+    cy.get(selector)
+      .find('.slick-track')
+      .should($div => {
+        expect($div).to.have.length(3);
+        const className = $div[0].className;
+        console.log(expect(className));
+        // expect(className).to.match(/slick-ac/);
+      });
   }
 }

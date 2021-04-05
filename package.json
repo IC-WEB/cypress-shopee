@@ -11,6 +11,7 @@
     "babel-loader": "^8.2.2",
     "cypress": "^6.8.0",
     "cypress-image-snapshot": "^4.0.1",
+    "cypress-plugin-tab": "^1.0.5",
     "path": "^0.12.7",
     "prettier": "^2.2.1",
     "tsconfig-paths": "^3.9.0",

@@ -1,5 +1,11 @@
 {
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "mobile": "0661119999",
+  "cfMobile": "0661119999",
+  "email": "test@icweb.co.th",
+  "citizenId": "1102001261842",
+  "career": "พนักงานประจำ",
+  "salary": "35000",
+  "province": "กรุงเทพมหานคร",
+  "amphoe": "เขตจอมทอง",
+  "callbackPeriod": "14.00 - 17.00"
 }
